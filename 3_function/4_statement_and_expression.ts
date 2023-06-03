@@ -46,3 +46,5 @@ const divide2: CalculationType = function (x, y) {
     return x/y
 }
 
+
+
