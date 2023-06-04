@@ -80,13 +80,13 @@ interface GetXnY2{
 }
 interface GetXnY2 {
     getX(x: number): number // 메서드 방식
-    getY(y: string): number
+    getY(y: string): number // 오버로딩
 }
 const testMethod: GetXnY2 = {
     getX(x) {
         return x
     },
-    getY(y) {
+    getY(y) { 
         return 1
     }
 }
