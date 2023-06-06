@@ -45,3 +45,9 @@ let strArrOrNumbArr: string[][] | number[][] = [
 strArrOrNumbArr = [
     ['1','2','3']
 ]
+
+for (let arr of numb2DArr) {
+    for (let item of arr) {
+        
+    }
+}
