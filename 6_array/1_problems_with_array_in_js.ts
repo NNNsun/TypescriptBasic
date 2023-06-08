@@ -44,4 +44,4 @@ for (let item of onlyNumbers) {
     
 }
 let number3 = onlyNumbers[0]
-let number4 =onlyNumbers[9999] // 선언시엔 에러발생하지않음
+let number4 =onlyNumbers[9999] // undefind이지만 선언시엔 에러발생하지않음
