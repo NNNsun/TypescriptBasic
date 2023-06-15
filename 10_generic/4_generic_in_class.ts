@@ -35,3 +35,4 @@ class DefaultGeneric<T = boolean>{
     data: T[]= []
 }
 const defaultGeneric = new DefaultGeneric()
+defaultGeneric.data
