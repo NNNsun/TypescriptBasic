@@ -16,7 +16,7 @@ const runner = async function () {
 }
 runner()
 
-const afterOneSeconds = function (): Promise<string>{ // 비동기 return 값에 반환 타입 넣기
+const afterOneSeconds = function (): Promise<string>{ // 비동기 return 값에 반환 타입 넣기 <string>으로 유추
        return new Promise((resolve) => {
         setTimeout(()=>{
             resolve('done')

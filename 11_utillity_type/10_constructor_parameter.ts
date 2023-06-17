@@ -1,0 +1,15 @@
+/**
+ * Constructor Parameter
+ */
+
+class Idol{
+    name: string
+    age: number
+    
+    constructor(name:string, age:number) {
+        this.name = name
+        this.age=age
+    }
+}
+
+type ConstructorParamType = ConstructorParameters<typeof Idol>// construct의 파라미터를 사용하는 방법
